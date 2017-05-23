@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>1→I1→J1→K1→L1→M{1,2,3,5,8,13,21,34,55,89,144}→L₁{2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97}→L₂{1,3,6,10,15,21,28,36,45,55,66,78,91}→L₃{1,5,12,22,35,51,70,92}→L₄{1,4,9,16,25,36,49,64,81,100}→L₅Disp "HOW LARGE IS LOCK?"Prompt NDisp ""Disp "1.FIBONNACI"Disp "2.PRIME"Disp "3.TRIANGULAR"Disp "4.PENTAGONAL"Disp "5.SQUARE"Prompt A,B,CIf A≠1 and B≠1 and C≠1:ThenClrList L₁0→IGoto 2ElseLbl 2If A≠2 and B≠2 and C≠2:ThenClrList L₂0→JGoto 3ElseLbl 3If A≠3 and B≠3 and C≠3:ThenClrList L₃0→KGoto 4ElseLbl 4If A≠4 and B≠4 and C≠4:ThenClrList L₄0→LGoto 5ElseLbl 5If A≠5 and B≠5 and C≠5:ThenClrList L₅0→M
+Goto 6Else
+Lbl 6
+If 1=1:Then
+Pause1→W1→θIf I=1:Thenθ*(sum(L₁≤N))→θsum(L₁≤N)/N→A(A)→L₆(W)W+1→WGoto AAElseLbl AAIf J=1:Thenθ*(sum(L₂≤N))→θsum(L₂≤N)/N→B(B)→L₆(W)W+1→WGoto BBElseLbl BBIf K=1:Thenθ*(sum(L₃≤N))→θsum(L₃≤N)/N→C(C)→L₆(W)W+1→WGoto CCElseLbl CCIf 1=L:Thenθ*(sum(L₄≤N))→θsum(L₄≤N)/N→D(D)→L₆(W)W+1→WGoto DDElseLbl DDIf 1=M:Thenθ*(sum(L₅≤N))→θsum(L₅≤N)/N→E(E)→L₆(W)Goto EEElseLbl EEIf 1=1:Thenprod(L₆)→PDisp "COMBINATIONS",θDisp "PROBABILITY:",P</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>LOCK</string>
+	<key>device type</key>
+	<string>TI-83 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

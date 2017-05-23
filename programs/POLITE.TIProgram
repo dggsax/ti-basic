@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>ClrList L₁Prompt X{1→L₁Repeat Ans=12:While fPart(X/AnsAns+1EndAns→L₁(1+dim(L₁X/Ans→XEndΔList(cumSum(L₁→L₁If fPart(sum(L₁/2))=0ThenDisp "NOT POLITE"ElseIf fPart(sum(L₁/2))≠0Then1→Z1→X1→YClrList L₂Lbl 0If L₁(X)=2ThenX+1→XGoto 0ElseIf dim(L₁)=XThenGoto 9ElseIf L₁(X)=L₁(X+1)Then(1+Z)→L₂(YX+1→XGoto 0ElseIf L₁(X)≠L₁(X+1)Then(1)→L₂(Y+1Y+1→YX+1→X1→ZGoto 0Lbl 9L₂+1→L₂prod(L₂)-1→PDisp ""Disp "POLITENESS= ",PPause If 1=1ThenEnd</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>POLITE</string>
+	<key>device type</key>
+	<string>TI-83 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

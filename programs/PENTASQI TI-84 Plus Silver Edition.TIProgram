@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Lbl MMenu("MAIN MENU","TN",TT,"SN",SS,"PN",PP,"HN",HH,"N",NN,"FASTEST WAY",F,"QUIT",Q)Lbl TTDisp ""Disp "T=.5(N+N)"Prompt N(.5(N+N))→TDisp ""Disp "T=",T(0)→TPause Goto RLbl SSDisp ""Disp "S=N"Prompt N(N)→SDisp ""Disp "S=",S(0)→SPause Goto RLbl PPDisp ""Disp "P=.5(3N-N)Prompt N(.5(3(N)-N))→PDisp ""Disp "P=",P(0)→PPause Goto RLbl HH
+Disp ""
+Disp "H=N(2N-1)"
+Prompt N
+(N(2(N)-1))→H
+Disp ""
+Disp "H=",H
+(0)→P
+Pause
+Goto R
+Lbl NNDisp "ENTER N=..."Prompt NN→XGoto 7Lbl FMenu("WHICH TWO LETTERS?","P+S",1,"P+T",2,"S+T",3,"S+H",4,"H+P",5,"H+T",6)Lbl 1Prompt PPrompt S(.5(3*P-P))→P(S)→S(P+S)→XGoto 7Lbl 2Prompt PPrompt T(.5(3P-P))→P(.5(T-T))→T(P+T)→XGoto 7Lbl 3Prompt SPrompt T(S)→S(.5(T+T))→T(S+T)→XGoto 7Lbl 4Prompt SPrompt H(S)→S(H(2(H)-1))→H(S+H)→XGoto 7
+Lbl 5Prompt HPrompt P(H(2(H)-1))→H(.5(3(P)-P))→P(H+P)→XGoto 7Lbl 6Prompt HPrompt T(H(2(H)-1))→H(.5(T+T))→T(H+T)→XGoto 7Lbl 70→ZLbl 13(.5(Z+Z))→TIf T&gt;XThen0→T0→ZGoto 15ElseIf T=ZThenZ→T0→ZGoto 15ElseIf T≠XThenZ+1→ZGoto 13Lbl 15(Z)→SIf S&gt;XThen0→S0→ZGoto 17ElseIf S=XThenZ→S0→ZGoto 17ElseIf S≠XThenZ+1→ZGoto 15Lbl 17(.5(3(Z)-Z))→PIf P&gt;XThen0→P0→ZGoto 19ElseIf P=XThenZ→P0→ZGoto 19ElseIf P≠XThenZ+1→ZGoto 17Lbl 19(Z(2(Z)-1))→TIf T&gt;XThen0→T0→ZGoto 21ElseIf T=ZThenZ→T0→ZGoto 21ElseIf T≠XThenZ+1→ZGoto 17Lbl 21
+Disp ""Disp "P=",PDisp "T=",TDisp "S=",S
+Disp "H=",HPause Goto RLbl RMenu("MAIN MENU?","GO BACK",M,"QUIT",Q)Lbl QIf 1=1ThenEnd</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>PENTASQI</string>
+	<key>device type</key>
+	<string>TI-83 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

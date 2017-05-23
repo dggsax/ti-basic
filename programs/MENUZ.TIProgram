@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Goto 1
+Lbl 0
+Menu("QUIT?","MAIN MENU",1,"QUIT",5)
+
+Lbl 5
+If 1=1
+Then
+End()
+
+Lbl 1
+Menu("NUMBERS","ABUNDANT",A,"DEFICIENT",B,"ECONOMICAL",C,"EQUIDIGITAL",D,"EVIL",E,"EXTRAVAGANT",F,"NEXT",2)
+Lbl 2
+Menu("NUMBERS","FRUGAL",G,"GERMAIN PRIMES",H,"HARMONIC",I,"LUCAS",J,"LUCKY",K,"MERSENNE PRIMES",L,"NEXT",3)
+Lbl 3
+Menu("NUMBERS","ODIOUS",M,"PERFECT",N,"POLITE",O,"PRIMEVAL",P,"TRANSCENDENTAL",Q,"UNHAPPY",R,"NEXT",4)
+Lbl 4
+Menu("NUMBERS","UNIT",S,"UNLUCKY",T,"WASTEFUL",U,"RESET",1)
+
+Lbl A
+Disp ""
+Disp "SUM OF N PROPER"
+Disp "DIVISORS OF N"
+Disp "IS &gt; THAN N"
+Pause
+Disp ""
+Disp "12,18,20,24,30,"
+Disp "36,40,42,48,54,"
+Disp "56,60,66,70,72,"
+Disp "78,80,84,88,90"
+Pause
+Goto 0</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>MENUZ</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>
